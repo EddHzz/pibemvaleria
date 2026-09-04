@@ -470,6 +470,26 @@ section:not(.hero):not(.verse) {
   font-size: 1.05rem;
 }
 .pregador__card p { margin: 0; opacity: 0.75; font-size: 0.85rem; }
+/* Selo de data/horário, no mesmo espírito da arte oficial */
+.pregador__card .pregador__quando {
+  display: inline-block;
+  margin: 0 0 0.6rem;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  background: var(--azul-noite);
+  border: 1px solid var(--dourado);
+  color: var(--dourado-metal-1);
+  font-family: var(--fonte-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  opacity: 1;
+}
+.pregador__card .pregador__origem {
+  max-width: 22ch;
+  margin: 0 auto;
+}
 .pregadores__nota {
   text-align: center;
   margin-top: 2rem;

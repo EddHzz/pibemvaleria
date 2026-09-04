@@ -1,9 +1,9 @@
 // ============================================
 // CONTADOR REGRESSIVO
-// EDITAR: ajuste o horário real do primeiro dia do evento (17/09)
+// Primeiro dia do evento: 10/09 às 19h30 (Pr. Davidson Freitas)
 // Formato: "AAAA-MM-DDTHH:MM:SS"
 // ============================================
-const DATA_EVENTO = new Date("2026-09-10T19:00:00");
+const DATA_EVENTO = new Date("2026-09-10T19:30:00");
 
 function atualizarContador() {
   const agora = new Date();
