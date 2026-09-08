@@ -156,6 +156,14 @@ button {
   transform: scaleX(1);
 }
 
+.nav-links a[aria-current="page"] {
+  color: var(--wine);
+}
+
+.nav-links a[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
 .nav-cta {
   text-decoration: none;
   background: var(--navy);
